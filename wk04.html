@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a basic HTML web page.We are going to learn about
+         semantic element, img tag, list elements, anchor tags, character entities. ">
+    <meta name="keywords" content="HTML, lists, images, semantic, link">
+    <meta name="author" content="Kiana Sepasian.">
+    <title>Basic HTML Web Page for the week 4 Comp1234 Lab</title>
+
+    <link rel="icon" href="assets/img/favicon.ico">
+    <style>
+        #bcolour{
+            background-color: yellow;
+        }
+        .ccolour{
+            color: blue;
+        }
+
+        ol{
+            list-style-type: decimal-leading-zero;
+        }
+
+        ul{
+            list-style-type: square;
+        }
+
+    </style>
+</head>
+<body>
+<!--This is a comment, and the body is where you put your content
+to display on screen-->
+<header id="top">
+    <h1>Basic HTML Web Page for the week 3 Comp1234 Lab</h1>
+    <a href="#bottom">go to the top of the page</a>
+</header>
+
+<main>
+    <h2 class="ccolour">Block and inline tags.</h2>
+    <p>This is a plain text block element.</p>
+
+    <strong>bold inline element.</strong>
+    <strong>This is another bold inline element.</strong>
+
+    <p>
+        This is a block element with
+        <strong>
+            a bold inline element.
+        </strong>
+    </p>
+
+
+    <br>
+    <hr>
+    <br>
+    <h2>Attributes</h2>
+    <p id="idatt">This is id attribute allows us to uniquely identify an element/tag
+        and allows us to select that element with CSS or Javascript.</p>
+    <p id="bcolour">This is id attribute allows us to uniquely identify an element/tag
+        and allows us to select that element with CSS or Javascript.</p>
+
+    <p class="ccolour secondclass">This is class attribute allows us to group identify an element/tag
+        and allows us to select those elements with CSS or Javascript.</p>
+    <p class="ccolour">This is class attribute allows us to group identify an element/tag
+        and allows us to select those elements with CSS or Javascript.</p>
+    <br>
+    <hr>
+    <br>
+    <h3>Link/Anchor</h3>
+
+    <a href="https://www.w3schools.com/" target="_blank">w3 schools absolute reference</a>
+    <a href="https://www.w3schools.com/">another w3 schools absolute reference</a>
+    <p>
+        One of the better Html reference site is:
+        <a href="https://www.w3schools.com/" target="_blank">
+            w3 schools absolute reference</a>
+
+    </p>
+    <p>
+        <a href="../wk02/wk02.html">wk02.html file using a document relative reference.</a>
+    </p>
+    <p>
+        <a href="/comp1234/lab/exercise/wk02/wk02.html">wk02.html file using a root relative reference.</a>
+    </p>
+    <p>
+        <a href="/index.html">index.html file using a root relative reference.</a>
+    </p>
+    <p>
+        <a href="../../../../index.html">index.html file using a document relative reference</a>
+    </p>
+    <br>
+    <hr>
+    <br>
+    <h3>lists</h3>
+    <h4>Unordered List</h4>
+    <ul>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+        <li>kiwi</li>
+        <li>
+            <a href="https://www.w3schools.com">w3school</a>
+        </li>
+    </ul>
+    <h4>ordered list</h4>
+    <ol>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+        <li>kiwi</li>
+        <li>
+            <a href="https://www.w3schools.com">w3school</a>
+        </li>
+        <ol>
+            <li>apple</li>
+            <li>orange</li>
+            <li>banana</li>
+            <li>kiwi</li>
+            <li>
+                <a href="https://www.w3schools.com">w3school</a>
+            </li>
+            <li>apple</li>
+            <li>orange</li>
+            <li>banana</li>
+            <li>kiwi</li>
+            <li>
+                <a href="https://www.w3schools.com">w3school</a>
+            </li>
+            </li>
+        </ol>
+
+
+
+        <br>
+        <hr>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Cat" target="_blank">
+        <img src="assets/img/cat.jpg" alt="cat winking" width="200" height="140"
+        title="Cat Winking"><!--document relative reference-->
+        </a>
+        <img src="/comp1234/lab/exercises/wk03/assets/img/cat.jpg" alt="cat winking" width="100" height="60">
+        <img src="/comp1234/lab/exercises/wk03/assets/img/cat.jpg" alt="cat winking" width="288" height="192"><!--root relative reference-->
+    <figure>
+        <img src="assets/img/assets/img/folders_comp1234">
+        <figcaption>Fig.01 folder structure</figcaption>
+
+    </figure>
+</main>
+<footer id="bottom">
+    <p>copyright &copy; 2024 by Kiana &reg; &lt;reg&gt;<\p>
+    <a href="#top">go to the top of the page</a>
+
+
+</footer>
+
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>
