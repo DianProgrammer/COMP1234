@@ -1,0 +1,19 @@
+ul li:first-child{
+  padding: 0.5em;
+  border: solid 2px red;
+}
+
+ul li:nth-child(2){
+  padding: 0.5em;
+  border: solid 2px red;
+}
+
+ul li:last-child{
+  padding: 0.5em;
+  border: solid 2px red;
+}
+
+ol{
+  border: solid 2px springgreen;
+  border-radius: 90px;
+}
