@@ -1,0 +1,290 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is a basic HTML and CSS web page.">
+  <meta name="keywords" content="Remember to fill in the info.">
+  <meta name="author" content="Leonard Zajaczkowski">
+  <title>Basic HTML and CSS Web Page for the week 7 Comp1234 Lab</title>
+
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="assets/css/wk11.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+
+  <style>
+    body{
+
+      background-color: lightgreen;
+    }
+
+  </style>
+</head>
+<body id="backColor">
+<div id="wrapper">
+
+  <header id="top">
+    <img src="assets/img/gbc_logo.jpg" alt="logo" width="100">
+    <section>
+      <h1 class="roboto-regular-italic">Basic HTML and CSS Web Page</h1>
+      <p>Photo by <a href="https://unsplash.com/@ahmed12abbas?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Ahmed
+        Abbas</a> on <a href="https://unsplash.com/photos/leafless-trees-covered-with-snow-dPrVq_7xbm8?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a>
+      </p>
+    </section>
+
+  </header>
+  <nav>
+
+
+    <ul>
+      <li><a href="#bottom">go to the bottom of the page</a></li>
+      <li><a href="#top">go to the top of the page</a></li>
+
+      <li><a href="#infoSection">info section</a></li>
+      <li><a href="#loremSection">lorem section</a></li>
+      <li><a href="#imageSection">image section</a></li>
+      <li><a href="#listSection">list section</a></li>
+      <li><a href="#linkSection">link section</a></li>
+    </ul>
+
+  </nav>
+  <main>
+    <section id="infoSection">
+      <h2 class="ccolour">Block and inline tags.</h2>
+      <p>This is a plain text block element.</p>
+
+      <strong>bold inline element.</strong>
+      <strong>This is another bold inline element.</strong>
+
+      <p>
+        This is a block element with
+        <strong>
+          a bold inline element.
+        </strong>
+      </p>
+
+      <br>
+      <hr>
+      <br>
+      <h2>Attributes</h2>
+      <p id="idatt">This id attribute allows us to uniquely identify an element/tag
+        and allows us to select that element with CSS or Javascript.</p>
+      <p id="bcolour">This id attribute allows us to uniquely identify an element/tag
+        and allows us to select that element with CSS or Javascript.</p>
+
+      <p class="ccolour secondclass">This class attribute allows us to group identify an element/tag
+        and allows us to select those elements with CSS or Javascript.</p>
+      <p class="ccolour">This class attribute allows us to group identify an element/tag
+        and allows us to select those elements with CSS or Javascript.</p>
+    </section>
+
+    <br>
+    <hr>
+    <br>
+    <section id="loremSection">
+      <h3 id="lorem" class="loremp">Lorem Ipsum</h3>
+      <p class="loremp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur error hic ipsam iste
+        nobis odio, officia similique sit totam ut! Accusamus, eligendi esse. Commodi consectetur cupiditate
+        dolor facere pariatur recusandae.</p>
+      <p class="loremp">Ab ex pariatur quaerat repellat unde? A cum dignissimos eum ex id minus neque quam rem
+        reprehenderit vel? Est eum id laboriosam magnam natus non odio officiis quam recusandae vitae.</p>
+      <p class="loremp">Ab amet aperiam asperiores consequatur dignissimos eius esse eum expedita facere, fugiat
+        inventore, laboriosam natus pariatur perspiciatis quaerat recusandae tenetur, vel. Distinctio impedit
+        officia quas quod voluptatem! Deserunt, in sit!</p>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores culpa distinctio
+          dolores esse eum, facere id labore perferendis perspiciatis, provident quae quibusdam quo quos,
+          sequi! Ab dignissimos nulla quae?</p>
+      </div>
+      <p class="loremp">Alias assumenda, beatae dolore dolorum illo impedit laboriosam pariatur perferendis, porro
+        quia, quis tenetur? Adipisci amet aperiam blanditiis eum illo, incidunt iste libero necessitatibus
+        provident rem repellat reprehenderit sed soluta.</p>
+      <p class="loremp">Architecto aut corporis cum cumque, dolorem ea eius enim et hic maxime natus nobis non
+        nostrum odit possimus quasi, quidem quo rem repellat repudiandae similique veniam vitae! Aspernatur,
+        dolorum, praesentium!</p>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section id="linkSection">
+      <h3>Link/Anchor</h3>
+
+      <a href="https://www.w3schools.com" target="_blank">w3 schools absolute reference</a>
+      <a href="https://www.w3schools.com">another w3 schools absolute reference</a>
+      <p>
+        One of the better HTML reference site is:
+        <a href="https://www.w3schools.com">
+          w3 schools absolute reference
+        </a>
+      </p>
+
+      <p> This is my:
+        <a href="../wk02/wk02.html">wk02.html file using a document relative reference.</a>
+      </p>
+      <p>
+        <a href="/comp1234/lab/exercises/wk02/wk02.html">wk02.html file using a root relative reference.</a>
+      </p>
+      <p>
+        <a href="/index.html">index.html file using a root relative reference.</a>
+      </p>
+      <p>
+        <a href="../../../../index.html">index.html file using a document relative reference.</a>
+      </p>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <section id="listSection">
+      <h3>Lists</h3>
+      <h4>Unordered List</h4>
+      <ul>
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+        <li>kiwi</li>
+        <li>
+          <a href="https://www.w3schools.com">W3 schools</a>
+        </li>
+      </ul>
+      <h4>Ordered List</h4>
+
+      <ol type="i">
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+        <li>kiwi</li>
+        <li>
+          <a href="https://www.w3schools.com">W3 schools</a>
+        </li>
+        <li>
+          <ul>
+            <li>apple</li>
+            <li>orange</li>
+            <li>banana</li>
+            <li>kiwi</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+
+    <br>
+    <hr>
+    <br>
+    <section id="imageSection">
+      <h2>Images</h2>
+      <figure>
+        <a href="https://en.wikipedia.org/wiki/Cat" target="_blank">
+          <img src="assets/img/cat.jpg" width="288" height="192" title="An image link to cat wiki"><!-- document relative reference-->
+        </a>
+
+        <img src="/comp1234/lab/exercises/wk03/assets/img/cat.jpg" alt="cat winking" width="200" height="140"><!-- root relative reference-->
+        <img src="/comp1234/lab/exercises/wk03/assets/img/cat.jpg" alt="cat winking" width="100" height="70"><!-- root relative reference-->
+      </figure>
+
+      <figure>
+        <img src="assets/img/folders_comp1234.png">
+        <figcaption>
+          Fig. 01 folder structure
+        </figcaption>
+      </figure>
+    </section>
+    <section id="formSection">
+      <h3>Forms</h3>
+
+      <form method="get" action="http://comp1234.gblearn.com/fall2024/lecture/wk10/WhereToSendThisInformation.php">
+        <fieldset>
+          <legend>Form Section (<span>*</span>required)</legend>
+
+          <div class="box">
+            <label for="fname">Full Name: <span>*</span></label>
+            <input type="text" id="fname" name="fname" required="">
+          </div>
+          <div class="box">
+            <label for="email">email: <span>*</span></label>
+            <input type="email" id="email" name="email" required="">
+          </div>
+          <div class="box">
+            <label for="colourBox">Colour Box</label>
+            <input type="color" id="colourBox" name="colourBox">
+            <input type="button" value="colour change" onclick="colourChange()">
+            <input type="text" name="colourText" id="cbox" readonly="" placeholder="Colour Value">
+
+          </div>
+          <div class="box">
+            <label for="colourList">Drop Down Colour List</label>
+            <select name="colourList" id="colourList">
+              <option value="red">red</option>
+              <option value="rgb(0,255,0)">green</option>
+              <option value="#0000ff">blue</option>
+
+            </select>
+            <input type="button" value="colour background" onclick="colourChange2()">
+
+          </div>
+          <div class="box">
+            <label for="date">Date:</label>
+            <input type="datetime-local" id="date" name="date" min="2024-11-10T08:00" max="2024-11-14T15:00">
+          </div>
+
+          <div class="box">
+            <label for="range">Number Range (1-10 step 0.5)</label>
+            <input type="range" id="range" name="range" min="1" max="10" step="0.5" value="3">
+          </div>
+
+          <div id="fields">
+            <fieldset id="payments">
+              <legend>Payment Type</legend>
+              <label for="cash">cash:</label>
+              <input type="radio" id="cash" name="pay" value="cash" checked="">
+              <label for="credit">credit:</label>
+              <input type="radio" id="credit" name="pay" value="credit">
+            </fieldset>
+            <fieldset id="choose">
+              <legend>Favorite Toys</legend>
+              <label for="toy">Spin top:</label>
+              <input type="checkbox" id="toy" name="ch1" value="toy top">
+              <label for="ball">toy ball:</label>
+              <input type="checkbox" id="ball" name="ch2" value="toy ball">
+              <label for="car">Dinky Car:</label>
+              <input type="checkbox" id="car" name="ch3" value="toy car">
+            </fieldset>
+          </div>
+
+          <div id="myButtons">
+            <input type="submit">
+            <input type="reset">
+          </div>
+        </fieldset>
+
+      </form>
+
+
+    </section>
+
+
+
+  </main>
+  <footer id="bottom">
+    <p>copyright ©2024 by Leo® &lt;reg&gt;</p>
+    <br><br>
+    <a href="#top">go to the top of the page</a>
+
+  </footer>
+</div>
+<script>
+  function colourChange(){
+    let colour=document.getElementById("colourBox").value;
+    document.body.style.backgroundColor=colour;
+    document.getElementById('cbox').value=colour;
+  }
+  function colourChange2(){
+    let colour=document.getElementById("colourList").value;
+    document.body.style.backgroundColor=colour;
+    document.getElementById('cbox').value=colour;
+  }
+</script>
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+
+</body>
+</html>

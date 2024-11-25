@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+
+}
+
+
+
+#backColor{
+    background-color: lightblue;
+}
+body{
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bcolour{
+    background-color: yellow;
+}
+#idatt{
+    background-color: lightblue;
+}
+.ccolour{
+    color: blue;
+}
+ol{
+    list-style-type: decimal-leading-zero;
+}
+ul{
+    list-style-type: square;
+}
+.loremp{
+    font-family: "Times New Roman", Times, serif;
+}
+
+#loremSection>h3{
+    color: red;
+}
+#loremSection>h3+p+p,section>h3+p{
+    background-color: pink;
+}
+#loremSection p:hover{
+    background-color: yellow;
+}
+#loremSection>h3:first-letter{
+    font-size: 150%;
+    color: purple;
+}
+
+[href="https://www.w3schools.com"]{
+    background-color: lightblue;
+}
+[href^=".."]{
+    border: 4px dotted red;
+}
+[href$="wk02.html"]{
+    background-color: white;
+}
+li>ul>li:first-child{
+    color: red;
+}
+li>ul>li:last-child{
+    color: green;
+}
+li>ul>li:nth-child(2){
+    color: orange;
+}
+li>ul>li:nth-child(3){
+    color: yellow;
+}
+
+body{
+
+}
+
+header, main, footer{
+
+    margin: 0 1.5em;
+    padding: 2em;
+}
+h1{
+    font-size: 450%;
+    text-shadow: 4px 4px 8px black;
+}
+h2,h3, h4, h5, h6{
+    color: purple;
+}
+.buttons{
+    color: tan;
+    text-decoration: none;
+    border: 4px purple solid;
+    padding: 10px;
+    margin: .5em;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, rebeccapurple, violet);
+    box-shadow: 4px 4px 8px black;
+}
+
+header p{
+    font-size: 10px;
+}
+header{
+    height: 100vh;
+    text-align: center;
+    position: relative;
+}
+header>img{
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+}
+header>section{
+    border: saddlebrown 6px solid;
+    width: fit-content;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    background-image: linear-gradient(to bottom, tan, saddlebrown);
+
+    padding: 2em;
+    border-radius: 40px 0;
+    box-shadow: 8px 8px 10px black;
+}
+footer,#linkSection,#listSection,#loremSection,#imageSection,#infoSection{
+    height: 100vh;
+    padding-top: 3.5em;
+}
+#linkSection p,#linkSection h3,#linkSection a{
+    margin: 1em;
+}
+
+
+header{
+    font-family: myFont, sans-serif;
+}
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+nav{
+
+    position: sticky;
+    top:0;
+
+    background-color: rgba(128, 0, 128, 0.7);
+}
+nav>ul{
+
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    width: fit-content;
+}
+nav>ul>li>a{
+    color: tan;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+nav li{
+    float: left;
+}
+nav>ul>li>a:hover{
+    background-color: rebeccapurple;
+}
+
+#listSection h4+ul>li:nth-child(2n-1){
+    background-color: bisque;
+    width: 50%;
+}
+
+#imageSection>h2+figure{
+    float: right;
+}
+
+form{
+    width: 55%;
+    margin: 0 auto;
+}
+#formSection>h3{
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 4px 4px 8px black;
+}
+legend{
+    font-size: xx-large;
+    text-align: right;
+}
+.box{
+    margin: 1.5em;
+}
+label{
+    font-size: x-large;
+}
+#formSection span{
+    color: red;
+}
+[type="text"],[type="email"]{
+    width: 75%;
+    float: right;
+}
+[readonly]{
+    width: 55%;
+}
+[type="button"]{
+    vertical-align: top;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 1em;
+}
+#fields{
+
+    overflow: hidden;
+}
+#payments{
+    width: 40%;
+    float: left;
+}
+#choose{
+    width:50%;
+    float: right;
+}
+#myButtons{
+    margin: 2em;
+    clear: both;
+}

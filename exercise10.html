@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is a basic HTML web page. ">
+  <meta name="keywords" content="HTML, from, CSS, semantic, link">
+  <meta name="author" content="Kiana Sepasian.">
+  <title>Basic HTML  & CSS Web Page for the week 10 exercise Comp1234 Lab</title>
+  <link rel="stylesheet" href="assets/css/exercise10.css"></head>
+<body>
+
+<section class="topic0">
+<form method="get" action="http://comp1234.gblearn.com/fall2024/lecture/wk10/WhereToSendThisInformation.php">
+
+  <fieldset>
+    <legend>
+     Comment Form
+    </legend>
+    <div class="topic1">
+      <label for="fname"><strong>Your Name: </strong><span class="star">*</span></label>
+      <div class="name-container">
+        <input class="name" type="text" id="fname" name="fname" required placeholder="First">
+        <input class="name" type="text" id="lname" name="lname" required placeholder="Last">
+      </div>
+      </div>
+
+    <div class="topic2">
+
+      <label for="email"><strong>Email:  </strong><span class=star>*</span></label>
+      <input type="email" id="email" name="email" required>
+
+
+    </div>
+
+    <div class="topic3">
+
+      <label for="subjectofcomment"><strong>Subject of comment: </strong></label>
+      <select class="topic6" name="subjectofcomment" id="subjectofcomment">
+
+        <option value="Problem">Problem</option>
+        <option value="Comment">Comment</option>
+        <option value="General Question">General Question</option>
+
+      </select>
+    </div>
+
+    <div class="topic4">
+      <label for="comments"><strong>Comments: </strong><span class="star">*</span></label>
+      <textarea class="box" name="comments" id="comments" cols="30" rows="10"></textarea>
+    </div>
+
+    <div class="topic5">
+
+      <input class="topic7" type="submit">
+
+    </div>
+
+  </fieldset>
+</form>
+</section>
+
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+
+</body>
+</html>

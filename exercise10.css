@@ -1,0 +1,94 @@
+[type="email"] {
+    width: 96%;
+    margin-bottom: 15px;
+    padding: 5px;
+
+}
+.topic0{
+    margin-top: 150px;
+    margin-right: 20px;
+    margin-left: 900px;
+
+}
+.star{
+    color: red;
+}
+.topic1 {
+    margin-bottom: 15px;
+}
+
+.name-container {
+    display: flex;
+    gap: 5px;
+}
+
+.name {
+    padding: 5px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.topic6{
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(209, 209, 209, 0.65);
+    margin-bottom: 15px;
+
+}
+
+.box{
+    width: 98%;
+    margin-bottom: 15px;
+}
+.topic5{
+    color: #8e44ad;
+}
+
+.topic1{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+.topic2{
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+
+}
+.topic3{
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+.topic4{
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+}
+.topic5{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+
+}
+.topic7{
+    background-color: rgba(142, 68, 173, 0.84);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+fieldset{
+    border: #0C0406 2px solid;
+}
