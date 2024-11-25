@@ -1,0 +1,36 @@
+h1{
+  color: #476BB3;
+  font-style: italic;
+
+}
+h2 {
+  color: crimson;
+  font-style: italic;
+}
+ul li{
+  font-size: 1.5em;
+}
+ol li{
+  font-size: 1.5em;
+}
+ul li:first-child{
+  background-color: lightblue;
+}
+ol li:first-child{
+  background-color: lightblue;
+}
+ul li:last-child{
+  background-color: pink;
+}
+ol li:last-child{
+  background-color: pink;
+}
+ul li:nth-child(2){
+  background-color: yellow;
+}
+ol li:nth-child(2){
+  background-color: yellow;
+}
+footer{
+  border: 2px solid black;
+}

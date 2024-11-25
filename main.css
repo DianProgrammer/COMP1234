@@ -1,0 +1,75 @@
+*{
+  /*margin: 0;*/
+  /*margin: 1rem;*/
+  /*margin: 1.5em;*/
+  margin: 10px;
+}
+
+
+body{
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#backColour{
+  background-color: tan;
+}
+.loremp{
+  font-family:"Times New Roman", Times, serif;
+}
+#bcolour{
+  background-color: yellow;
+}
+.ccolour{
+  color: blue;
+}
+
+ol{
+  list-style-type: decimal-leading-zero;
+}
+
+ul{
+  list-style-type: square;
+}
+#lorem{
+  color: red;
+}
+/*h3{
+  color: red;
+}*/
+section>h3{
+  color: red;
+}
+section h3{
+  color:red
+}
+section>h3+p{
+  background-color: pink;
+}
+section p:hover{
+  background-color: yellow;
+}
+[href="https://www.w3schools.com/"]{
+  background-color: lightgreen;
+}
+[href^=".."]{
+  border: dotted 4px red;
+}
+[href$="wk02.html"]{
+  background-color: white;
+}
+#lorem::first-letter{
+  color: purple;
+  font-size: 150%;
+}
+ol ul>li:first-child{
+  color: red;
+}
+ol ul>li:last-child{
+  color: red;
+}
+ol ul>li:nth-child(2){
+  color:yellow;
+}
+ol ul>li:nth-child(3){
+  color:blue;
+}
