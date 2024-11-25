@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a basic HTML web page.We are going to learn about
+         img element, anchor element, relative and absolute reference, headings, paragraphs. ">
+    <meta name="keywords" content="HTML, relative, absolute, paths, anchor">
+    <meta name="author" content="Kiana Sepasian.">
+    <title>Basic HTML Web Page for the week 3 Comp1234 Lab</title>
+    <style>
+        #bcolour{
+            background-color: yellow;
+        }
+        .ccolour{
+            color: blue;
+        }
+    </style>
+    </head>
+    <body>
+        <!--This is a comment, and the body is where you put your content
+        to display on screen-->
+        <h1>Basic HTML Web Page for the week 3 Comp1234 Lab</h1>
+        <h2 class="ccolour">Block and inline tags.</h2>
+        <p>This is a plain text block element.</p>
+
+        <strong>bold inline element.</strong>
+        <strong>This is another bold inline element.</strong>
+
+        <p>
+            This is a block element with
+            <strong>
+                a bold inline element.
+            </strong>
+        </p>
+
+
+        <br>
+        <hr>
+        <br>
+        <h2>Attributes</h2>
+        <p id="idatt">This is id attribute allows us to uniquely identify an element/tag
+        and allows us to select that element with CSS or Javascript.</p>
+        <p id="bcolour">This is id attribute allows us to uniquely identify an element/tag
+            and allows us to select that element with CSS or Javascript.</p>
+
+        <p class="ccolour secondclass">This is class attribute allows us to group identify an element/tag
+        and allows us to select those elements with CSS or Javascript.</p>
+        <p class="ccolour">This is class attribute allows us to group identify an element/tag
+            and allows us to select those elements with CSS or Javascript.</p>
+    <br>
+    <hr>
+    <br>
+    <h3>Link/Anchor</h3>
+
+    <a href="https://www.w3schools.com/" target="_blank">w3 schools absolute reference</a>
+    <a href="https://www.w3schools.com/">another w3 schools absolute reference</a>
+    <p>
+        One of the better Html reference site is:
+        <a href="https://www.w3schools.com/" target="_blank">
+            w3 schools absolute reference</a>
+
+    </p>
+    <p>
+        <a href="../wk02/wk02.html">wk02.html file using a document relative reference.</a>
+    </p>
+    <p>
+        <a href="/comp1234/lab/exercise/wk02/wk02.html">wk02.html file using a root relative reference.</a>
+    </p>
+    <p>
+        <a href="/index.html">index.html file using a root relative reference.</a>
+    </p>
+    <p>
+        <a href="../../../../index.html">index.html file using a document relative reference</a>
+    </p>
+    <br>
+    <hr>
+    <br>
+    <img src="assets/img/cat.jpg" alt="cat winking"><!--document relative reference-->
+
+    <img src="/comp1234/lab/exercises/wk03/assets/img/cat.jpg" alt="cat winking"><!--root relative reference-->
+
+    <script src="https://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>
