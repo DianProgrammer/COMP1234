@@ -1,6 +1,6 @@
 function part1(){
     // Start your code here for first part. There is no need to return any value.
-    document.write('<div style="margin-left: 150px; margin-bottom: 30px">');
+    document.write('<div style="margin-left: 750px; margin-bottom: 30px; position: fixed; top: 650px;">');
     let StudentID ='101475855';
     document.write(`<strong>Student ID : </strong>${StudentID}`);
     let FullName = 'Kiana Sepasian';
@@ -33,7 +33,6 @@ function part1(){
 
             i++;
     }
-    console.log(encodedID);
 
     while(x < FullName.length){
 
@@ -42,7 +41,6 @@ function part1(){
         encodedName += String.fromCharCode(char1.charCodeAt(0) + 1);
         x++;
     }
-    console.log(encodedName);
 
 
     while (y < LabProfessor.length){
@@ -53,7 +51,6 @@ function part1(){
         y++;
 
     }
-    console.log(encodedLab);
 
 
     while(z < LabSession.length ){
@@ -63,8 +60,7 @@ function part1(){
 
         z++;
     }
-    console.log(encodedSession);
-    document.write('<div style="margin-left: 30px; margin-bottom: 30px">');
+    document.write('<div style="margin-left: 750px; margin-bottom: 30px; position: fixed; top: 700px;">');
     document.write(`<strong>Encoded Student ID : </strong>${encodedID}`);
     document.write('<span style="padding-left: 10px">');
     document.write(`<strong>Encoded Full Name : </strong>${encodedName}`);
@@ -99,24 +95,24 @@ function part2(num1, num2) {
 }
 
 
-function part3(num1, num2) {
+function part3(startNum, endNum) {
     let _return = '';
     let sum = 0;
 
-    if (num1 < num2) {
-        while (num1 <= num2) {
-            _return += num1;
-            sum += num1;
-            num1++;
+    if (startNum < endNum) {
+        while (startNum <= endNum) {
+            _return += startNum;
+            sum += startNum;
+            startNum++;
         }
-    } else if (num1 > num2) {
-        while (num1 >= num2) {
-            _return += num1;
-            sum += num1;
-            num1--;
+    } else if (startNum > endNum) {
+        while (startNum >= endNum) {
+            _return += startNum;
+            sum += startNum;
+            startNum--;
         }
     } else {
-        sum = num1 + num2;
+        sum = startNum + endNum;
         _return = `${sum}`;
     }
 
@@ -181,18 +177,18 @@ function part5(array) {
     let i = 0;
     while (i < array.length) {
         if (array[i] % 2 === 0) {
-            evenNumbers = evenNumbers.concat(array[i]); // Update the array
+            evenNumbers = evenNumbers.concat(array[i]);
             sumEVEN += array[i];
         } else {
-            oddNumbers = oddNumbers.concat(array[i]); // Update the array
+            oddNumbers = oddNumbers.concat(array[i]);
             sumODD += array[i];
         }
         i++;
     }
 
     let result = oddNumbers.concat(evenNumbers);
-    result = result.concat(sumODD); // Ensure sumODD is added correctly
-    result = result.concat(sumEVEN); // Ensure sumEVEN is added correctly
+    result = result.concat(sumODD);
+    result = result.concat(sumEVEN);
 
     return result;
 
